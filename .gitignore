@@ -1,7 +1,6 @@
 # Prerequisites
 *.d
-.vscode/
-
+tempCodeRunnerFile.cpp
 # Compiled Object files
 *.slo
 *.lo
