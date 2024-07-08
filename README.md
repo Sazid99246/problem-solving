@@ -2,3 +2,4 @@
 | Judge Name | Link                                          | Directory               |
 | ---------- | --------------------------------------------- | ----------------------- |
 | Codechef   | [Link](https://www.codechef.com/practice-old) | [CodeChef](./Codechef/) |
+| HackerEarth   | [Link](https://www.hackerearth.com/practice/) | [HackerEarth](./HackerEarth/) |
