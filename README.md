@@ -1,3 +1,4 @@
 # My Solution to the problems of many online judges
-1. [Hackerrank](https://www.hackerrank.com/)
-2. [HackerEarth](https://www.hackerearth.com/practice/)
+| Judge Name | Link                                          | Directory               |
+| ---------- | --------------------------------------------- | ----------------------- |
+| Codechef   | [Link](https://www.codechef.com/practice-old) | [CodeChef](./Codechef/) |
