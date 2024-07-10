@@ -17,7 +17,6 @@ int main(int argc, char const *argv[])
     {
         cout << "Same" << endl;
     }
-    
 
     return 0;
 }
