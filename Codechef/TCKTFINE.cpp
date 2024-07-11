@@ -9,7 +9,7 @@ int main()
     {
         int x, q, p;
         cin >> x >> p >> q;
-        cout << (p - q) * x << endl; 
+        cout << (p - q) * x << endl;
     }
 
     return 0;
