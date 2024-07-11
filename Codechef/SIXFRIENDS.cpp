@@ -9,7 +9,7 @@ int main()
     {
         int x, y;
         cin >> x >> y;
-        cout << min(3 * x,  2 * y) << endl;
+        cout << min(3 * x, 2 * y) << endl;
     }
 
     return 0;
