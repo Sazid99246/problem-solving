@@ -12,5 +12,4 @@ int main()
         string result = x * 5 >= y ? "YES" : "NO";
         cout << result << endl;
     }
-    
 }
