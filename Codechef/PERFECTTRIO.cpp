@@ -11,16 +11,7 @@ int main()
         cin >> a >> b >> c;
         string result = a + b == c || b + c == a || a + c == b ? "YES" : "NO";
         cout << result << endl;
-        // if (a + b == c || b + c == a || a + c == b)
-        // {
-        //     cout << "YES" << endl;
-        // }
-        // else
-        // {
-        //     cout << "NO" << endl;
-        // }
-                
     }
-    
+
     return 0;
 }
