@@ -12,6 +12,6 @@ int main()
         string result = y * 30 <= x ? "YES" : "NO";
         cout << result << endl;
     }
-    
+
     return 0;
 }
