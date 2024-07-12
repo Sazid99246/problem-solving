@@ -22,6 +22,6 @@ int main()
         cin >> n;
         cout << sumOfDigits(n) << endl;
     }
-    
+
     return 0;
 }
