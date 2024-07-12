@@ -23,7 +23,6 @@ int main()
         {
             cout << "Any" << endl;
         }
-        
     }
     
     return 0;
