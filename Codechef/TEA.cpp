@@ -13,6 +13,6 @@ int main()
         int jar_filling_time = ceil(x / y);
         cout << jar_filling_time * z << endl;
     }
-    
+
     return 0;
 }
