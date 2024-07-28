@@ -17,8 +17,7 @@ int main()
         {
             cout << "OUT" << endl;
         }
-        
     }
-    
+
     return 0;
 }
