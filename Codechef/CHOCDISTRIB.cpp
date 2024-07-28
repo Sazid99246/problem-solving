@@ -12,6 +12,6 @@ int main()
         int max_children = ceil(n / 2);
         cout << max_children << " " << n << endl;
     }
-    
+
     return 0;
 }
