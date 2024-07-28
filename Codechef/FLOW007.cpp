@@ -14,7 +14,7 @@ int main()
         {
             n.pop_back();
         }
-        
+
         reverse(n.begin(), n.end());
         cout << n << endl;
     }
