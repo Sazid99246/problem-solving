@@ -27,11 +27,8 @@ int main()
             {
                 cout << "DUCK" << endl;
             }
-            
         }
-        
-        
     }
-    
+
     return 0;
 }
