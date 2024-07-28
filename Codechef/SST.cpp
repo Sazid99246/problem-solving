@@ -9,7 +9,7 @@ int main()
     {
         int a, b;
         cin >> a >> b;
-        
+
         int total_a = a * 10;
         int total_b = b * 5;
 
@@ -25,8 +25,7 @@ int main()
         {
             cout << "ANY" << endl;
         }
-        
     }
-    
+
     return 0;
 }
