@@ -7,11 +7,11 @@ int main()
     cin >> t;
     while (t--)
     {
-        int n,x;
+        int n, x;
         cin >> n >> x;
         int y = n - x;
         cout << min(x, y) << endl;
     }
-    
+
     return 0;
 }
