@@ -12,6 +12,6 @@ int main()
         int filled = x / y >= 20 ? 20 : x / y;
         cout << filled << endl;
     }
-    
+
     return 0;
 }
