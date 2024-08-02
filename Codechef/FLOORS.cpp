@@ -6,7 +6,7 @@ int find_floor(int x)
     if (x % 10 == 0)
         return x / 10;
     else
-        return x / 10 + 1;    
+        return x / 10 + 1;
 }
 
 int main()
@@ -27,6 +27,6 @@ int main()
         }
         cout << chef_floor - chefina_floor << endl;
     }
-    
+
     return 0;
 }
