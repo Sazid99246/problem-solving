@@ -8,10 +8,9 @@ int main()
 
     while (t--)
     {
-        double x;
-        cin >> x;
-        double insurence = x * 0.2;
-        cout << ceil(100 / insurence) << endl;
+        double n;
+        cin >> n;
+        cout << ceil(n / 10) << endl;
     }
 
     return 0;
