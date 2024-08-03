@@ -13,6 +13,6 @@ int main()
         string result = a + b + c == 180 ? "YES" : "NO";
         cout << result << endl;
     }
-    
+
     return 0;
 }
