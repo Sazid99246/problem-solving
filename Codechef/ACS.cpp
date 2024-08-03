@@ -15,6 +15,6 @@ int main()
         int result = problems > 10 ? -1 : problems;
         cout << result << endl;
     }
-    
+
     return 0;
 }
