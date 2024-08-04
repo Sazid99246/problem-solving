@@ -14,6 +14,6 @@ int main()
         int total_sticks = extra_sticks + x;
         cout << ceil(total_sticks / y) << endl;
     }
-    
+
     return 0;
 }
