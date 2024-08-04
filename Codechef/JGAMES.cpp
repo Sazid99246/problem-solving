@@ -5,7 +5,7 @@ int main()
 {
     int t;
     cin >> t;
-    
+
     while (t--)
     {
         int x, y;
@@ -13,6 +13,6 @@ int main()
         string result = (x + y) % 2 == 0 ? "Janmansh" : "Jay";
         cout << result << endl;
     }
-    
+
     return 0;
 }
