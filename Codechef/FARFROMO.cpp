@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <cmath>
 using namespace std;
 
 int main()
@@ -8,18 +9,25 @@ int main()
 
     while (t--)
     {
-        double x1, y1, x2, y2;
-        cin >> x1 >> x2 >> y1 >> y2;
+        int x1, y1, x2, y2;
+        cin >> x1 >> y1 >> x2 >> y2;
 
-        int alex = sqrt(pow((0 - x1), 2) + pow((0 - y1), 2));
-        int bob = sqrt(pow((0 - x2), 2) + pow((0 - y2), 2));
+        // Calculate the squared distances
+        int alexDistanceSquared = x1 * x1 + y1 * y1;
+        int bobDistanceSquared = x2 * x2 + y2 * y2;
 
-        if (alex > bob)
+        if (alexDistanceSquared > bobDistanceSquared)
+        {
             cout << "ALEX" << endl;
-        else if (bob > alex)
+        }
+        else if (bobDistanceSquared > alexDistanceSquared)
+        {
             cout << "BOB" << endl;
+        }
         else
+        {
             cout << "EQUAL" << endl;
+        }
     }
 
     return 0;
