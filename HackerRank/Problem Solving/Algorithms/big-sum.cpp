@@ -13,7 +13,6 @@ long aVeryBigSum(vector<long> ar) {
         sum += ar[i];
     }
     return sum;
-    
 }
 
 int main()
