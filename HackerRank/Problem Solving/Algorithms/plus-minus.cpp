@@ -6,52 +6,60 @@ string ltrim(const string &);
 string rtrim(const string &);
 vector<string> split(const string &);
 
-int diagonalDifference(vector<vector<int>> arr)
+/*
+ * Complete the 'plusMinus' function below.
+ *
+ * The function accepts INTEGER_ARRAY arr as parameter.
+ */
+
+void plusMinus(vector<int> arr)
 {
-    int d1sum = 0;
-    int d2sum = 0;
+    double size = arr.size();
+    double positive = 0;
+    double negative = 0;
+    double zero = 0;
+
     for (int i = 0; i < arr.size(); i++)
     {
-        d1sum += arr[i][i];
-        d2sum += arr[i][arr.size() - i - 1];
+        if (arr[i] > 0)
+            positive++;
+        else if (arr[i] < 0)
+            negative++;
+        else
+            zero++;
     }
-    int absDiff = abs(d1sum - d2sum);
-    cout << absDiff;
+
+    double positivePercent = positive / size;
+    double negativePercent = negative / size;
+    double zeroPercent = zero / size;
+
+    cout << fixed << setprecision(6) << positivePercent << endl;
+    cout << fixed << setprecision(6) << negativePercent << endl;
+    cout << fixed << setprecision(6) << zeroPercent << endl;
 }
 
 int main()
 {
-    ofstream fout(getenv("OUTPUT_PATH"));
-
     string n_temp;
     getline(cin, n_temp);
 
     int n = stoi(ltrim(rtrim(n_temp)));
 
-    vector<vector<int>> arr(n);
+    string arr_temp_temp;
+    getline(cin, arr_temp_temp);
+
+    vector<string> arr_temp = split(rtrim(arr_temp_temp));
+
+    vector<int> arr(n);
 
     for (int i = 0; i < n; i++)
     {
-        arr[i].resize(n);
+        int arr_item = stoi(arr_temp[i]);
 
-        string arr_row_temp_temp;
-        getline(cin, arr_row_temp_temp);
-
-        vector<string> arr_row_temp = split(rtrim(arr_row_temp_temp));
-
-        for (int j = 0; j < n; j++)
-        {
-            int arr_row_item = stoi(arr_row_temp[j]);
-
-            arr[i][j] = arr_row_item;
-        }
+        arr[i] = arr_item;
     }
 
-    int result = diagonalDifference(arr);
-
-    fout << result << "\n";
-
-    fout.close();
+    plusMinus(arr);
 
     return 0;
 }
