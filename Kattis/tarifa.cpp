@@ -13,6 +13,6 @@ int main()
         total_used += p;
     }
     cout << total_got - total_used << endl;
-    
+
     return 0;
 }
