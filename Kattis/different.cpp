@@ -8,6 +8,6 @@ int main()
     {
         cout << abs(x - y) << endl;
     }
-    
+
     return 0;
 }
