@@ -9,6 +9,6 @@ int main()
     {
         cout << i << " Abracadabra" << endl;
     }
-    
+
     return 0;
 }
