@@ -12,13 +12,9 @@ int main()
         cin >> l >> w >> h;
         cout << "Case " << i << ": ";
         if (l <= 20 && w <= 20 && h <= 20)
-        {
             cout << "good" << endl;
-        }
         else
-        {
             cout << "bad" << endl;
-        }
     }
 
     return 0;
