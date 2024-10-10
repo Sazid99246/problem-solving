@@ -11,12 +11,12 @@ int main()
         vector<int> nums;
         int a, b, c, mid = 0;
         cin >> a >> b >> c;
-        nums.push_back(a);        
-        nums.push_back(b);        
-        nums.push_back(c);        
+        nums.push_back(a);
+        nums.push_back(b);
+        nums.push_back(c);
         sort(nums.begin(), nums.end());
         cout << "Case " << i << ": " << nums[1] << endl;
     }
-    
+
     return 0;
 }
