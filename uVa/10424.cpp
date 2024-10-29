@@ -1,6 +1,4 @@
-#include <iostream>
-#include <iomanip>
-#include <cctype>
+#include <bits/stdc++.h>
 using namespace std;
 
 // Helper function to calculate the "love score" of a name
